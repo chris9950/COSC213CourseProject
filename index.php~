@@ -1,0 +1,20 @@
+<?php
+
+
+$sql = mysqli_connect("localhost", "cs213user", "letmein", "COSC213CourseProject");
+
+echo "<html>
+<title>temp site</title>
+<body>
+<form action='home.php' method='POST'>
+<h2>Welcome to our first website from scratch!</h2>
+<b>Username:</b></br>
+<input type='text' name='username'/></br><b>Password:</b></br>
+<input type='password' name='pass'/></br></br>
+<input type='submit' value='Login'>     <input type='submit' value='Sign Up'>
+</form>
+<ul><a href='creaters.php'><b>Creaters</b></a></ul>
+</body>
+</html>";
+
+?>
